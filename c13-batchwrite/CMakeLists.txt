@@ -1,0 +1,5 @@
+add_executable(batchwrite batchwrite.c)
+target_link_libraries(batchwrite network_coding)
+
+add_executable(batchwrite_server batchwrite_server.c)
+target_link_libraries(batchwrite_server network_coding)

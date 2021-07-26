@@ -1,0 +1,8 @@
+add_executable(udpconn_client udpconn_client.c)
+target_link_libraries(udpconn_client network_coding)
+
+add_executable(udpconn_server udpconn_server.c)
+target_link_libraries(udpconn_server network_coding)
+
+add_executable(udpconn_client02 udpconn_client02.c)
+target_link_libraries(udpconn_client02 network_coding)

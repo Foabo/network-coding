@@ -1,0 +1,5 @@
+add_executable(graceclient graceclient.c)
+target_link_libraries(graceclient network_coding)
+
+add_executable(graceserver graceserver.c)
+target_link_libraries(graceserver network_coding)

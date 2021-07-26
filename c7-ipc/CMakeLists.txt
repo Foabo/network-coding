@@ -1,0 +1,11 @@
+add_executable(unixstreamclient unixstream_client.c)
+target_link_libraries(unixstreamclient network_coding)
+
+add_executable(unixstreamserver unixstream_server.c)
+target_link_libraries(unixstreamserver network_coding)
+
+add_executable(unixdataclient unixdata_client.c)
+target_link_libraries(unixdataclient network_coding)
+
+add_executable(unixdataserver unixdata_server.c)
+target_link_libraries(unixdataserver network_coding)

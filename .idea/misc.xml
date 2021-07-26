@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/c11-conn-close" />
+      <file path="$PROJECT_DIR$/c12-keepalive" />
+      <file path="$PROJECT_DIR$/c14-udpconn" />
+      <file path="$PROJECT_DIR$/c5-tcp" />
+      <file path="$PROJECT_DIR$/c6-udp" />
+      <file path="$PROJECT_DIR$/c7-ipc" />
+      <file path="$PROJECT_DIR$/lib" />
+    </sourceRoots>
+  </component>
+</project>

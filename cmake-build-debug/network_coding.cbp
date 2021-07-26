@@ -1,0 +1,1645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="network_coding"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\c4\;CMake Files\c5-tcp\;CMake Files\c6-udp\;CMake Files\c7-ipc\;CMake Files\c11-conn-close\;CMake Files\c12-keepalive\;CMake Files\c13-batchwrite\;CMake Files\c14-udpconn\;CMake Files\c15-address-used\;CMake Files\c16-stream\;CMake Files\c17-reliable\;CMake Files\c18-cmd\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network_coding">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/libnetwork_coding.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 network_coding"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="network_coding/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/libnetwork_coding.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 network_coding/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/lib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="make_sock">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/make_sock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c4/Makefile&quot;  VERBOSE=1 make_sock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="make_sock/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/make_sock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c4/Makefile&quot;  VERBOSE=1 make_sock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c4/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c4/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c4/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpserver">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/tcpserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 tcpserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpserver/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/tcpserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 tcpserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpclient">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/tcpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 tcpclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tcpclient/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/tcpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 tcpclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c5-tcp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpserver">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 udpserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpserver/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 udpserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpclient">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 udpclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpclient/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 udpclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c6-udp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixdataserver">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/unixdataserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 unixdataserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixdataserver/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/unixdataserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 unixdataserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixstreamserver">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/unixstreamserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 unixstreamserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixstreamserver/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/unixstreamserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 unixstreamserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixdataclient">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/unixdataclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 unixdataclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixdataclient/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/unixdataclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 unixdataclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixstreamclient">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/unixstreamclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 unixstreamclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unixstreamclient/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/unixstreamclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 unixstreamclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c7-ipc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graceserver">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/graceserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 graceserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graceserver/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/graceserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 graceserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graceclient">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/graceclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 graceclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graceclient/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/graceclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 graceclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c11-conn-close/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pingserver">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/pingserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 pingserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pingserver/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/pingserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 pingserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pingclient">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/pingclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 pingclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pingclient/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/pingclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 pingclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c12-keepalive/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="batchwrite_server">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/batchwrite_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 batchwrite_server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="batchwrite_server/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/batchwrite_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 batchwrite_server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="batchwrite">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/batchwrite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 batchwrite"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="batchwrite/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/batchwrite" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 batchwrite/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c13-batchwrite/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpconn_client02">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpconn_client02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 udpconn_client02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpconn_client02/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpconn_client02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 udpconn_client02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpconn_server">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpconn_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 udpconn_server"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpconn_server/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpconn_server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 udpconn_server/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpconn_client">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpconn_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 udpconn_client"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="udpconn_client/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/udpconn_client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 udpconn_client/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c14-udpconn/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addressused02">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/addressused02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 addressused02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addressused02/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/addressused02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 addressused02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addressused">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/addressused" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 addressused"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="addressused/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/addressused" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 addressused/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c15-address-used/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="streamserver">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/streamserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 streamserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="streamserver/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/streamserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 streamserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="streamclient">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/streamclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 streamclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="streamclient/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/streamclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 streamclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c16-stream/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reliable_client02">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/reliable_client02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 reliable_client02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reliable_client02/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/reliable_client02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 reliable_client02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reliable_server02">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/reliable_server02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 reliable_server02"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reliable_server02/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/reliable_server02" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 reliable_server02/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reliable_server01">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/reliable_server01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 reliable_server01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reliable_server01/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/reliable_server01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 reliable_server01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reliable_client01">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/reliable_client01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 reliable_client01"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reliable_client01/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/reliable_client01" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 reliable_client01/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c17-reliable/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmdserver">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/cmdserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 cmdserver"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmdserver/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/cmdserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 cmdserver/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmdclient">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/cmdclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 cmdclient"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cmdclient/fast">
+				<Option output="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin/cmdclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/inf/CLionProjects/network-coding/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/inf/CLionProjects/network-coding"/>
+					<Add directory="/Users/inf/CLionProjects/network-coding/cmake-build-debug/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 cmdclient/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/inf/CLionProjects/network-coding/cmake-build-debug/c18-cmd/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c11-conn-close/graceclient.c">
+			<Option target="graceclient"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c11-conn-close/graceserver.c">
+			<Option target="graceserver"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c12-keepalive/pingclient.c">
+			<Option target="pingclient"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c12-keepalive/pingserver.c">
+			<Option target="pingserver"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c13-batchwrite/batchwrite.c">
+			<Option target="batchwrite"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c13-batchwrite/batchwrite_server.c">
+			<Option target="batchwrite_server"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c14-udpconn/udpconn_client.c">
+			<Option target="udpconn_client"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c14-udpconn/udpconn_client02.c">
+			<Option target="udpconn_client02"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c14-udpconn/udpconn_server.c">
+			<Option target="udpconn_server"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c15-address-used/addressused.c">
+			<Option target="addressused"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c15-address-used/addressused02.c">
+			<Option target="addressused02"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c16-stream/streamclient.c">
+			<Option target="streamclient"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c16-stream/streamserver.c">
+			<Option target="streamserver"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c17-reliable/reliable_client01.c">
+			<Option target="reliable_client01"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c17-reliable/reliable_client02.c">
+			<Option target="reliable_client02"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c17-reliable/reliable_server01.c">
+			<Option target="reliable_server01"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c17-reliable/reliable_server02.c">
+			<Option target="reliable_server02"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c18-cmd/cmdclient.c">
+			<Option target="cmdclient"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c18-cmd/cmdserver.c">
+			<Option target="cmdserver"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c4/make_sock.c">
+			<Option target="make_sock"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c5-tcp/tcp_client.c">
+			<Option target="tcpclient"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c5-tcp/tcp_server.c">
+			<Option target="tcpserver"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c6-udp/udp_client.c">
+			<Option target="network_coding"/>
+			<Option target="udpclient"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c6-udp/udp_server.c">
+			<Option target="network_coding"/>
+			<Option target="udpserver"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c7-ipc/unixdata_client.c">
+			<Option target="unixdataclient"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c7-ipc/unixdata_server.c">
+			<Option target="unixdataserver"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c7-ipc/unixstream_client.c">
+			<Option target="network_coding"/>
+			<Option target="unixstreamclient"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c7-ipc/unixstream_server.c">
+			<Option target="network_coding"/>
+			<Option target="unixstreamserver"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/acceptor.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/acceptor.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/buffer.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/buffer.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/channel.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/channel.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/channel_map.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/channel_map.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/event_loop.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/event_loop.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/event_loop_thread.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/event_loop_thread.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/http_request.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/http_request.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/http_response.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/http_response.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/http_server.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/http_server.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/log.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/log.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/poll_dispatcher.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/read.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/sock_ntop.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/tcp_client.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/tcp_connection.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/tcp_connection.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/tcp_server.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/tcp_server.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/thread_pool.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/thread_pool.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/utils.c">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/utils.h">
+			<Option target="network_coding"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/config.h.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c4\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c5-tcp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c5-tcp\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c6-udp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c6-udp\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c7-ipc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c7-ipc\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c11-conn-close/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c11-conn-close\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c12-keepalive/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c12-keepalive\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c13-batchwrite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c13-batchwrite\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c14-udpconn/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c14-udpconn\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c15-address-used/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c15-address-used\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c16-stream/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c16-stream\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c17-reliable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c17-reliable\"/>
+		</Unit>
+		<Unit filename="/Users/inf/CLionProjects/network-coding/c18-cmd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\c18-cmd\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
